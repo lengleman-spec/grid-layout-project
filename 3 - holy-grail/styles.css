@@ -56,4 +56,30 @@ aside {
 }
 
 footer {
+  grid-column: span 3;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding: 30px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  nav {
+    grid-column: span 3;
+    border-right: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  article {
+    grid-column: span 2; /* Takes up 2 of the 3 columns, so it looks like just a 2 column layout */
+  }
+
+  aside {
+    padding: 16px;
+  }
 }
