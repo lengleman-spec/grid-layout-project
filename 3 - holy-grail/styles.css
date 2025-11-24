@@ -26,3 +26,34 @@ nav {
   padding: 30px;
   border-right: 1px solid #ddd; /* Forms the verticle line separating the nav and the header content */
 }
+
+nav li {
+  text-decoration: underline;
+}
+
+article {
+  padding: 30px;
+}
+
+article h2 {
+  font-size: 3.5em;
+  max-width: 800px;
+}
+
+article img {
+  width: 100%;
+}
+
+article p {
+  margin-top: 30px;
+  line-height: 2em;
+  color: #777;
+}
+
+aside {
+  padding: 30px;
+  border-left: 1px solid #ddd;
+}
+
+footer {
+}
