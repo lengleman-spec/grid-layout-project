@@ -71,3 +71,17 @@ main {
   min-width: 100%;
   min-height: 100%;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1400px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .panel.photos {
+    grid-column: span 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
