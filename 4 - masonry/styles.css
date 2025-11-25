@@ -83,4 +83,13 @@ main .tall {
     max-width: 400px;
     margin: 20px auto; /* Centers main within page */
   }
+
+  nav {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  nav h1 {
+    grid-column: 1 / span 4;
+    grid-row: 1; /* Overrides default behavior that makes the first two links being in the first row. Instead we manually override it (grid-row: 1) to put the h1 in the first row. Now the h1 is centered on its own line, with the two links being now on the second row. */
+  }
 }
